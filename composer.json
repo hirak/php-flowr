@@ -1,0 +1,19 @@
+{
+    "name": "hiraku/flowr",
+    "description": "Long Running Transaction Library",
+    "authors": [
+        {
+            "name": "Hiraku NAKANO",
+            "email": "hiraku@tojiru.net"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {"Flowr": "src/"}
+    }
+}
