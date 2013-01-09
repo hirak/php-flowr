@@ -1,19 +1,23 @@
 {
-    "name": "hiraku/flowr",
-    "description": "Long Running Transaction Library",
-    "authors": [
+    "name": "hiraku/flowr"
+    ,"description": "Long Running Transaction Library"
+    ,"authors": [
         {
-            "name": "Hiraku NAKANO",
-            "email": "hiraku@tojiru.net"
+            "name": "Hiraku NAKANO"
+            ,"email": "hiraku@tojiru.net"
         }
-    ],
-    "license": "MIT",
-    "require": {
-    },
-    "require-dev": {
+    ]
+    ,"repositories": {
+        "packagist": false
+        ,"my": {"type": "composer", "url": "http://packagist.tojiru.net/"}
+    }
+    ,"license": "MIT"
+    ,"require": {
+    }
+    ,"require-dev": {
         "phpunit/phpunit": "3.7.*"
-    },
-    "autoload": {
+    }
+    ,"autoload": {
         "psr-0": {"Flowr": "src/"}
     }
 }
